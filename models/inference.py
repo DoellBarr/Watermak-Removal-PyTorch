@@ -1,5 +1,5 @@
 import argparse
-from api import remove_watermark
+from models.api import remove_watermark
 
 parser = argparse.ArgumentParser(description='Removing Watermark')
 parser.add_argument('--image-path', type=str, default='models/data/watermark-unavailable/watermarked/watermarked0.png',
